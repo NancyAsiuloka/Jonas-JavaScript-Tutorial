@@ -16,4 +16,4 @@ alert(firstName + ' is a ' + age + ' year old ' + job
 + '. Is he married? ' + isMarried);
 
 var lastName = prompt('what is his last name?');
-console.log(firstName + ' ' + lastName);
+console.log(firstName + ' ' +  lastName);
