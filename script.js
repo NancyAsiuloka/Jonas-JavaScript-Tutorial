@@ -167,6 +167,8 @@ var job = 'Teacher';
 switch (job){
     case 'teacher':
         console.log(firstName + ' teaches kids how to code.');
+    case 'driver':
+            console.log(firstName + ' drives an uber in Libson.');
 }
 
 
