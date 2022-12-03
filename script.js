@@ -164,7 +164,10 @@ console.log(drink);
 
 // switch statement
 var job = 'Teacher';
-
+switch (job){
+    case 'teacher':
+        console.log(firstName + ' teaches kids how to code.');
+}
 
 
 
