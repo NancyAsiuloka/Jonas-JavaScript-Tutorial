@@ -163,12 +163,14 @@ console.log(drink);
 
 
 // switch statement
-var job = 'Teacher';
+var job = 'teacher';
 switch (job){
     case 'teacher':
         console.log(firstName + ' teaches kids how to code.');
     case 'driver':
             console.log(firstName + ' drives an uber in Libson.');
+    case 'designer':
+            console.log(firstName + ' designs beautiful websites.');
 }
 
 
