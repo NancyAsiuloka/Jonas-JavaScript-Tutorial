@@ -168,9 +168,9 @@ switch (job){
     case 'teacher':
         console.log(firstName + ' teaches kids how to code.');
     case 'driver':
-            console.log(firstName + ' drives an uber in Libson.');
+        console.log(firstName + ' drives an uber in Libson.');
     case 'designer':
-            console.log(firstName + ' designs beautiful websites.');
+        console.log(firstName + ' designs beautiful websites.');
 }
 
 age = 56;
@@ -185,8 +185,45 @@ switch (true) {
         console.log(firstName + ' is a young man.');
         break;
     default:
-        console.log(firstName + ' is a boy.');
+        console.log(firstName + ' is a man.');
 }
+
+
+// truthy and falsy values and equality operators
+
+// falsy are undefined, null, 0, '', NaN
+// truthy are NOT falsy values
+
+var height;
+if (height) {
+    console.log('Variable is defined');
+} else {
+    console.log('Variable is not defined');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
