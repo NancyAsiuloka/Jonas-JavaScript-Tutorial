@@ -194,14 +194,17 @@ switch (true) {
 // falsy are undefined, null, 0, '', NaN
 // truthy are NOT falsy values
 
-var height;
-if (height) {
+var height = 23;
+if (height || height === 0) {
     console.log('Variable is defined');
 } else {
     console.log('Variable is not defined');
 }
 
-
+// equality operators
+if (height == 23) {
+    console.log('The == operator does type coercion');
+}
 
 
 
