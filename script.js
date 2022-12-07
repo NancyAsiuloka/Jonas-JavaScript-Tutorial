@@ -208,8 +208,46 @@
 
 
 // coding challenge
-var johnTeam = [89, 120, 103];
-var mikeTeam = [116, 94, 123];
+// var johnScore = [89, 120, 103];
+// var mikeScore = [116, 94, 123];
+
+
+// var mikeAvrScore = (86 + 91 + 120) / 3;
+// console.log(mikeAvrScore);
+
+// var johnAvrScore = (91 + 120 + 86) / 3;
+// console.log(johnAvrScore);
+
+// if (mikeAvrScore > johnAvrScore){
+//     console.log('Mike\'s team won with the average score of ' + mikeAvrScore);
+// } else {
+//     console.log('John\'s team won with the average score of ' + johnAvrScore);
+// }
+
+// var maryScore = [97, 134, 105];
+// var maryAvrScore = (34 + 90 + 95) / 3;
+// console.log(maryAvrScore);
+
+// if (mikeAvrScore > johnAvrScore && mikeAvrScore > maryAvrScore){
+//     console.log('Mike\'s team is the winner');
+// } else if(johnAvrScore > mikeAvrScore && johnAvrScore > maryAvrScore) {
+//     console.log('John\'s team is the winner');
+// } else if(maryAvrScore > mikeAvrScore && maryAvrScore > johnAvrScore) {
+//     console.log('Mary\'s team is the winner');
+// } else {
+//     console.log('There is a draw');
+// }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
