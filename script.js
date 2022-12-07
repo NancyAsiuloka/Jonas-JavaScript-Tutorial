@@ -246,7 +246,10 @@ function calculateAge(birthYear){
 }
 
 var ageJohn = calculateAge(1990);
-console.log(ageJohn);
+var ageMike = calculateAge(1940);
+var ageJane = calculateAge(1969);
+console.log(ageJohn, ageMike, ageJane);
+
 
 
 
