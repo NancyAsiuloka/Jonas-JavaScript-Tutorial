@@ -257,6 +257,8 @@ function yearsUntilRetirement(year, firstName){
 }
 
 yearsUntilRetirement(1990, 'John');
+yearsUntilRetirement(1948, 'Mike');
+yearsUntilRetirement(1969, 'Jane');
 
 
 
