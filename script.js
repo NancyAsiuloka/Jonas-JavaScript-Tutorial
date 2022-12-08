@@ -329,17 +329,13 @@ function tipCalculate(bill) {
   return percentage * bill;
 }
 
-console.log(tipCalculate(300));
+var bills = [124, 48, 268];
+var tips = [tipCalculate(bills[0]),
+            tipCalculate(bills[1]),
+            tipCalculate(bills[2])];
 
-
-const bills=[124,40,200];
-const firstBill = tipCalculate(bills[0])
-const secondBill = tipCalculate(bills[1])
-const thirdBill = tipCalculate(bills[2])
-const tips=[firstBill, secondBill,thirdBill];
-
-var finalValues = [bills[0] + tips[0],
+var finalValues = [bills[0] + tips[0], 
                     bills[1] + tips[1],
-                ]
-console.log(tips)
+                    bills[2] + tips[2]];
 
+console.log(tips, finalValues);
