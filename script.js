@@ -350,7 +350,11 @@ var john = {
     isMarried: false 
 };
 
-console.log(john);
+console.log(john.firstName);
+console.log(john['lastName']);
+
+var x = 'birthYear';
+console.log(john[x]);
 
 
 
