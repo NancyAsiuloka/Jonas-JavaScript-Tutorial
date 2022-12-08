@@ -317,7 +317,6 @@
 
 function tipCalculate(bill) {
   var percentage;
-  var arr = [];
 
   if (bill < 50) {
     percentage = .2;
