@@ -7,12 +7,12 @@
 // // job = 'teacher';
 // // isMarried = false;
 
-// // console.log(firstName + ' is a ' + age + ' year old ' + job 
+// // console.log(firstName + ' is a ' + age + ' year old ' + job
 // // + '. Is he married? ' + isMarried);
 // // age = 'three';
 // // job = 'driver';
 
-// // alert(firstName + ' is a ' + age + ' year old ' + job 
+// // alert(firstName + ' is a ' + age + ' year old ' + job
 // // + '. Is he married? ' + isMarried);
 
 // // var lastName = prompt('what is his last name?');
@@ -38,8 +38,6 @@
 // var johnOlder = ageJohn < ageMark;
 // console.log(johnOlder);
 
-
-
 // // typeof operator
 // console.log(typeof johnOlder);
 // console.log(typeof ageJohn);
@@ -53,7 +51,7 @@
 // var fullAge = 18;
 
 // // multiple operator
-// var isFullAge = now - yearJohn >= fullAge;  
+// var isFullAge = now - yearJohn >= fullAge;
 // console.log(isFullAge);
 
 // // grouping
@@ -91,25 +89,22 @@
 // var higherBodyMass = markBodyMass > johnBodyMass;
 // console.log('Is Mark\'s bodymass higher than John\'s? ' + higherBodyMass);
 
-
 // // If / else statements
 // var firstName = 'John';
 // var civilStatus = 'single';
 
 // if(civilStatus === 'married') {
-//     console.log(firstName + ' is married'); 
+//     console.log(firstName + ' is married');
 // } else {
 //     console.log(firstName + ' will hopefully marry soon');
 // }
 
 // var isMarried = true;
 // if(isMarried) {
-//     console.log(firstName + ' is married'); 
+//     console.log(firstName + ' is married');
 // } else {
 //     console.log(firstName + ' will hopefully marry soon');
 // }
-
-
 
 // var johnHeight, markHeight, johnMass, markMass;
 // johnHeight = 10;
@@ -125,7 +120,6 @@
 // } else {
 //     console.log('Mark\'s bodymass higher than John\'s.');
 // }
-
 
 // Boolean Logic
 
@@ -143,13 +137,12 @@
 //     console.log(firstName + ' is man');
 // }
 
-
 // The ternary operator and switch statements
 // var firstName = 'John';
 // var age = 14;
 
 // // ternary operator
-// age >= 18 ? console.log(firstName + ' drinks beer.') 
+// age >= 18 ? console.log(firstName + ' drinks beer.')
 //     : console.log(firstName + ' drinks juice');
 
 // var drink = age >= 18? 'beer' : 'juice';
@@ -160,7 +153,6 @@
 // // } else {
 // //     var drink = 'juice';
 // // }
-
 
 // // switch statement
 // var job = 'teacher';
@@ -188,7 +180,6 @@
 //         console.log(firstName + ' is a man.');
 // }
 
-
 // // truthy and falsy values and equality operators
 
 // // falsy are undefined, null, 0, '', NaN
@@ -206,11 +197,9 @@
 //     console.log('The == operator does type coercion');
 // }
 
-
 // coding challenge
 // var johnScore = [89, 120, 103];
 // var mikeScore = [116, 94, 123];
-
 
 // var mikeAvrScore = (86 + 91 + 120) / 3;
 // console.log(mikeAvrScore);
@@ -238,7 +227,6 @@
 //     console.log('There is a draw');
 // }
 
-
 // Functions
 
 // function calculateAge(birthYear){
@@ -255,12 +243,12 @@
 //     var retirement = 65 - age;
 
 //     if (retirement > 0) {
-//         console.log(firstName + ' retires in ' + 
+//         console.log(firstName + ' retires in ' +
 //         retirement + ' years.');
 //     } else {
 //         console.log(firstName + ' is already retired.');
 //     }
-   
+
 // }
 
 // yearsUntilRetirement(1990, 'John');
@@ -271,7 +259,6 @@
 
 // function declaration
 // function whatDoYouDo(job, firstName){}
-
 
 // function expressions
 // var whatDoYouDo = function(job, firstName){
@@ -291,12 +278,11 @@
 // console.log(whatDoYouDo('designer', 'Jane'));
 // console.log(whatDoYouDo('retired', 'Mike'));
 
-
 // ARRAYS
 
 // Initialize new array
 // var names = ['John', 'Mark', 'Jane'];
-// var years = new Array(1990, 1969, 1948); 
+// var years = new Array(1990, 1969, 1948);
 
 // console.log(names[0]);
 // console.log(names.length);
@@ -322,105 +308,38 @@
 
 // console.log(john.indexOf(1990));
 
-// var isDesigner = john.indexOf('designer') === -1 ?  'John is NOT a designer': 
+// var isDesigner = john.indexOf('designer') === -1 ?  'John is NOT a designer':
 // 'John IS a designer';
 
 // console.log(isDesigner);
 
 // Coding challenge
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function tipCalculate(bill) {
+  var percentage;
+  var arr = [];
+
+  if (bill < 50) {
+    percentage = .2;
+  } else if (bill >= 50 && bill < 200) {
+    percentage = .15;
+  } else  {
+    percentage = .1;
+  }l
+  return percentage * bill;
+}
+
+console.log(tipCalculate(300));
+
+
+const bills=[124,40,200];
+const firstBill = tipCalculate(bills[0])
+const secondBill = tipCalculate(bills[1])
+const thirdBill = tipCalculate(bills[2])
+const tips=[firstBill, secondBill,thirdBill];
+
+var finalValues = [bills[0] + tips[0],
+                    bills[1] + tips[1],
+                ]
+console.log(tips)
 
