@@ -341,6 +341,8 @@
 
 
 // Object and properties
+
+// object literals
 var john = {
     firstName: 'John',
     lastName: 'Smith',
@@ -356,8 +358,16 @@ console.log(john['lastName']);
 var x = 'birthYear';
 console.log(john[x]);
 
+john.job = 'designer';
+john['isMarried'] = true;
+console.log(john);
 
-
+// new object syntax
+var jane = new Object();
+jane.name = 'Jane';
+jane.birthYear = 1969;
+jane['lastName'] = 'Smith';
+console.log(jane);
 
 
 
