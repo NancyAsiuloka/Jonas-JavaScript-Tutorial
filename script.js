@@ -277,7 +277,7 @@
 var whatDoYouDo = function(job, firstName){
     switch(job) {
         case 'teacher':
-            
+            return firstName + ' teaches kid how to code';
         case 'driver':
 
         case 'designer':
