@@ -279,10 +279,11 @@ var whatDoYouDo = function(job, firstName){
         case 'teacher':
             return firstName + ' teaches kid how to code';
         case 'driver':
-
+            return firstName + ' drives a car in Lisbon.';
         case 'designer':
-
+            return firstName + ' designs beautiful websites';
         default:
+            return firstName + ' does something else';
     }
 }
 
