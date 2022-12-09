@@ -270,12 +270,20 @@
 // function statements and expressions
 
 // function declaration
-function whatDoYouDo(job, firstName){}
+// function whatDoYouDo(job, firstName){}
 
 
 // function expressions
 var whatDoYouDo = function(job, firstName){
+    switch(job) {
+        case 'teacher':
+            
+        case 'driver':
 
+        case 'designer':
+
+        default:
+    }
 }
 
 
