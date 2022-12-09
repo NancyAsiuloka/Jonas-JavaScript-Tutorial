@@ -274,21 +274,38 @@
 
 
 // function expressions
-var whatDoYouDo = function(job, firstName){
-    switch(job) {
-        case 'teacher':
-            return firstName + ' teaches kid how to code';
-        case 'driver':
-            return firstName + ' drives a car in Lisbon.';
-        case 'designer':
-            return firstName + ' designs beautiful websites';
-        default:
-            return firstName + ' does something else';
-    }
-}
+// var whatDoYouDo = function(job, firstName){
+//     switch(job) {
+//         case 'teacher':
+//             return firstName + ' teaches kid how to code';
+//         case 'driver':
+//             return firstName + ' drives a car in Lisbon.';
+//         case 'designer':
+//             return firstName + ' designs beautiful websites';
+//         default:
+//             return firstName + ' does something else';
+//     }
+// }
+
+// console.log(whatDoYouDo('teacher', 'John'));
+// console.log(whatDoYouDo('designer', 'Jane'));
+// console.log(whatDoYouDo('retired', 'Mike'));
 
 
+// ARRAYS
 
+// Initialize new array
+var names = ['John', 'Mark', 'Jane'];
+var years = new Array(1990, 1969, 1948); 
+
+console.log(names[0]);
+console.log(names.length);
+
+// Mutate array data
+names[1] = 'Ben';
+names[names.length] = 'Mary';
+
+console.log(names);
 
 
 
