@@ -389,8 +389,8 @@
 
 var john = {
     fullName: 'John Smith',
-    mass: 40,
-    height: 6,
+    mass: 70,
+    height: 9,
     calcBMI: function() {
         var BMI;
         BMI = this.mass / this.height ^ 2;
@@ -400,6 +400,18 @@ var john = {
 
 john.calcBMI();
 
+var mark = {
+    fullName: 'Mark Smith',
+    mass: 80,
+    height: 10,
+    calcBMI: function() {
+        var BMI;
+        BMI = this.mass / this.height ^ 2;
+        console.log(BMI);
+    }
+};
+
+mark.calcBMI();
 
 
 
