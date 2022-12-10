@@ -387,39 +387,45 @@
 // console.log(john);
 
 
-var john = {
-    fullName: 'John Smith',
-    mass: 90,
-    height: 1.5,
-    calcBMI: function() {
-        this.bmi = this.mass / (this.height * this.height);
-        return this.bmi;
-    }
-};
+// coding challenge
+// var john = {
+//     fullName: 'John Smith',
+//     mass: 90,
+//     height: 1.5,
+//     calcBMI: function() {
+//         this.bmi = this.mass / (this.height * this.height);
+//         return this.bmi;
+//     }
+// };
 
 
-var mark = {
-    fullName: 'Mark Smith',
-    mass: 80,
-    height: 1.7,
-    calcBMI: function() {
-        this.bmi = this.mass / (this.height * this.height);
-        return this.bmi;
-    }
-};
+// var mark = {
+//     fullName: 'Mark Smith',
+//     mass: 80,
+//     height: 1.7,
+//     calcBMI: function() {
+//         this.bmi = this.mass / (this.height * this.height);
+//         return this.bmi;
+//     }
+// };
 
-john.calcBMI();
-mark.calcBMI();
-console.log(john, mark);
+// john.calcBMI();
+// mark.calcBMI();
+// console.log(john, mark);
 
-if(john.bmi > mark.bmi) {
-    console.log(john.fullName + ' has a higher BMI of ' + john.bmi);
-} else if(mark.bmi > john.bmi) {
-    console.log(mark.fullName + ' has a higher BMI of ' + mark.bmi);
-} else {
-    console.log('They have the same BMI')
+// if(john.calcBMI() > mark.calcBMI()) {
+//     console.log(john.fullName + ' has a higher BMI of ' + john.bmi);
+// } else if(mark.bmi > john.bmi) {
+//     console.log(mark.fullName + ' has a higher BMI of ' + mark.bmi);
+// } else {
+//     console.log('They have the same BMI');
+// }
+
+//  Loops and iteration
+
+for(var i = 0; i < 10; i++){
+    console.log(i);
 }
-
 
 
 
