@@ -392,9 +392,13 @@ var john = {
     mass: 40,
     height: 6,
     calcBMI: function() {
-        this.age = 2018 - this.birthYear;
+        var BMI;
+        BMI = this.mass / this.height ^ 2;
+        console.log(BMI);
     }
 };
+
+john.calcBMI();
 
 
 
