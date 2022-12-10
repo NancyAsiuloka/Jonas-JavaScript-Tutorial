@@ -427,6 +427,10 @@ for(var i = 0; i < 10; i++){
     console.log(i);
 }
 
+var john = ['john', 'smith', 1990, 'designer'];
+for (var i = 0; i < john.length; i++){
+    console.log(john[i]);
+}
 
 
 
