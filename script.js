@@ -343,35 +343,58 @@
 // Object and properties
 
 // object literals
+// var john = {
+//     firstName: 'John',
+//     lastName: 'Smith',
+//     birthYear: 1990,
+//     family: ['jane', 'Mark', 'Bob', 'Emily'],
+//     job: 'teacher',
+//     isMarried: false 
+// };
+
+// console.log(john.firstName);
+// console.log(john['lastName']);
+
+// var x = 'birthYear';
+// console.log(john[x]);
+
+// john.job = 'designer';
+// john['isMarried'] = true;
+// console.log(john);
+
+// // new object syntax
+// var jane = new Object();
+// jane.name = 'Jane';
+// jane.birthYear = 1969;
+// jane['lastName'] = 'Smith';
+// console.log(jane);
+
+
+// object methods
+
+// var john = {
+//     firstName: 'John',
+//     lastName: 'Smith',
+//     birthYear: 1992,
+//     family: ['jane', 'Mark', 'Bob', 'Emily'],
+//     job: 'teacher',
+//     isMarried: false, 
+//     calcAge: function() {
+//         this.age = 2018 - this.birthYear;
+//     }
+// };
+// john.calcAge();
+// console.log(john);
+
+
 var john = {
-    firstName: 'John',
-    lastName: 'Smith',
-    birthYear: 1990,
-    family: ['jane', 'Mark', 'Bob', 'Emily'],
-    job: 'teacher',
-    isMarried: false 
+    fullName: 'John Smith',
+    mass: 40,
+    height: 6,
+    calcBMI: function() {
+        this.age = 2018 - this.birthYear;
+    }
 };
-
-console.log(john.firstName);
-console.log(john['lastName']);
-
-var x = 'birthYear';
-console.log(john[x]);
-
-john.job = 'designer';
-john['isMarried'] = true;
-console.log(john);
-
-// new object syntax
-var jane = new Object();
-jane.name = 'Jane';
-jane.birthYear = 1969;
-jane['lastName'] = 'Smith';
-console.log(jane);
-
-
-
-
 
 
 
