@@ -389,29 +389,34 @@
 
 var john = {
     fullName: 'John Smith',
-    mass: 70,
-    height: 9,
+    mass: 90,
+    height: 1.5,
     calcBMI: function() {
-        var BMI;
-        BMI = this.mass / this.height ^ 2;
-        console.log(BMI);
+        this.bmi = this.mass / (this.height * this.height);
+        return this.bmi;
     }
 };
 
-john.calcBMI();
 
 var mark = {
     fullName: 'Mark Smith',
     mass: 80,
     height: 10,
     calcBMI: function() {
-        var BMI;
-        BMI = this.mass / this.height ^ 2;
-        console.log(BMI);
+        this.bmi = this.mass / (this.height * this.height);
+        return this.bmi;
     }
 };
 
+john.calcBMI();
 mark.calcBMI();
+console.log(john, mark);
+
+// if(john.BMI > mark.BMI) {
+//     console.log(fullName + ' has the highest body mass of ' + BMI);
+// } else {
+//     console.log(fullName + ' has the highest body mass of ' + BMI);
+// }
 
 
 
