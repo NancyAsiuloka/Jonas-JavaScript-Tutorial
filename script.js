@@ -423,21 +423,39 @@
 
 //  Loops and iteration
 
-for(var i = 0; i < 10; i++){
-    console.log(i);
-}
+// for loop
+// for(var i = 0; i < 10; i++){
+//     console.log(i);
+// }
 
-var john = ['john', 'smith', 1990, 'designer'];
-for (var i = 0; i < john.length; i++){
-    console.log(john[i]);
-}
+// var john = ['john', 'smith', 1990, 'designer', 'blue'];
+// for (var i = 0; i < john.length; i++){
+//     console.log(john[i]);
+// }
 
+// // while loop
+// while(i < john.length){
+//     console.log(john[i]);
+//     i++;
+// }
 
+// continue and break statements
+// var john = ['john', 'smith', 1990, 'designer', 'blue'];
+// for (var i = 0; i < john.length; i++){
+//     if (typeof john[i] !== 'string') continue;
+//     console.log(john[i]);
+// }
 
+// // break
+// for (var i = 0; i < john.length; i++){
+//     if (typeof john[i] !== 'string') break;
+//     console.log(john[i]);
+// }
 
-
-
-
+// // looping backward
+// for(var i = john.length - 1; i >= 0; i--) {
+//     console.log(john[i]);
+// }
 
 
 
