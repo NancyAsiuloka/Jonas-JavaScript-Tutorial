@@ -1,14 +1,14 @@
-var firstName = 'john';
-var age = 28;
+// var firstName = 'john';
+// var age = 28;
 
-console.log(firstName + ' ' + age);
+// console.log(firstName + ' ' + age);
 
-var job, isMarried;
-job = 'teacher';
-isMarried = false;
+// var job, isMarried;
+// job = 'teacher';
+// isMarried = false;
 
-console.log(firstName + ' is a ' + age + ' year old ' + job
-+ '. Is he married? ' + isMarried);
+// console.log(firstName + ' is a ' + age + ' year old ' + job
+// + '. Is he married? ' + isMarried);
 // // age = 'three';
 // // job = 'driver';
 
@@ -20,15 +20,15 @@ console.log(firstName + ' is a ' + age + ' year old ' + job
 
 // // Basic operators
 
-// var year, yearJohn, yearMark;
-// now = 2018;
-// ageJohn = 28;
-// ageMark = 33;
+var year, yearJohn, yearMark;
+now = 2018;
+ageJohn = 28;
+ageMark = 33;
 
-// // math operators
-// yearJohn = now - ageJohn;
-// yearMark = now - ageMark;
-// console.log(yearJohn);
+// math operators
+yearJohn = now - ageJohn;
+yearMark = now - ageMark;
+console.log(yearJohn);
 
 // console.log(now + 2);
 // console.log(now * 2);
