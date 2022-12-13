@@ -3,6 +3,7 @@
 // var firstName = 'john';
 // var age = 28;
 
+// Type coercion
 // console.log(firstName + ' ' + age);
 
 // var job, isMarried;
@@ -11,6 +12,8 @@
 
 // console.log(firstName + ' is a ' + age + ' year old ' + job
 // + '. Is he married? ' + isMarried);
+
+// variable mutation
 // // age = 'three';
 // // job = 'driver';
 
