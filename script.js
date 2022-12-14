@@ -14,11 +14,11 @@
 // + '. Is he married? ' + isMarried);
 
 // variable mutation
-age = 'three';
-job = 'driver';
+// age = 'three';
+// job = 'driver';
 
-alert(firstName + ' is a ' + age + ' year old ' + job
-+ '. Is he married? ' + isMarried);
+// alert(firstName + ' is a ' + age + ' year old ' + job
+// + '. Is he married? ' + isMarried);
 
 // var lastName = prompt('what is his last name?');
 // console.log(firstName + ' ' +  lastName);
