@@ -27,6 +27,8 @@
 
 var year, yearJohn, yearMark;
 now = 2018;
+
+// math operator
 ageJohn = 28;
 ageMark = 33;
 
