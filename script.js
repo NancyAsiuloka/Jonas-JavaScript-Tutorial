@@ -46,11 +46,11 @@ var johnOlder = ageJohn < ageMark;
 console.log(johnOlder);
 
 // // typeof operator
-// console.log(typeof johnOlder);
-// console.log(typeof ageJohn);
-// console.log(typeof 'Mark is older than john');
-// var x;
-// console.log(typeof x);
+console.log(typeof johnOlder);
+console.log(typeof ageJohn);
+console.log(typeof 'Mark is older than john');
+var x;
+console.log(typeof x);
 
 // // operator precedence
 // var noe = 2018;
