@@ -28,7 +28,7 @@
 var year, yearJohn, yearMark;
 now = 2018;
 
-// math operator
+
 ageJohn = 28;
 ageMark = 33;
 
@@ -42,8 +42,8 @@ console.log(now * 2);
 console.log(now / 2);
 
 // // Logical operators
-// var johnOlder = ageJohn < ageMark;
-// console.log(johnOlder);
+var johnOlder = ageJohn < ageMark;
+console.log(johnOlder);
 
 // // typeof operator
 // console.log(typeof johnOlder);
