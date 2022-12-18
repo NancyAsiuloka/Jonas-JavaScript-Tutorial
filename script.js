@@ -68,17 +68,17 @@
 // console.log(average);
 
 // // Multiple assignments
-var x, y;
-x = y = (3 + 5) * 4 - 6;
-console.log(x, y);
+// var x, y;
+// x = y = (3 + 5) * 4 - 6;
+// console.log(x, y);
 
-// more operators
-x *= 2;
-console.log(x);
-x += 10;
-console.log(x);
-x++;
-console.log(x);
+// // more operators
+// x *= 2;
+// console.log(x);
+// x += 10;
+// console.log(x);
+// x++;
+// console.log(x);
 
 // coding challenge
 // var johnHeight, markHeight, johnMass, markMass;
