@@ -81,14 +81,14 @@
 // console.log(x);
 
 // coding challenge
-var johnHeight, markHeight, johnMass, markMass;
-johnHeight = 10;
-markHeight = 20;
+// var johnHeight, markHeight, johnMass, markMass;
+// johnHeight = 10;
+// markHeight = 20;
 
-johnMass = 40;
-markMass = 30;
-var johnBodyMass = johnMass / johnHeight ^ 2;
-console.log(johnBodyMass);
+// johnMass = 40;
+// markMass = 30;
+// var johnBodyMass = johnMass / johnHeight ^ 2;
+// console.log(johnBodyMass);
 
 // var markBodyMass = markMass / markHeight ^ 2;
 // console.log(markBodyMass);
