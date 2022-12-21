@@ -113,20 +113,20 @@ if(isMarried) {
     console.log(firstName + ' will hopefully marry soon');
 }
 
-// var johnHeight, markHeight, johnMass, markMass;
-// johnHeight = 10;
-// markHeight = 20;
+var johnHeight, markHeight, johnMass, markMass;
+johnHeight = 10;
+markHeight = 20;
 
-// johnMass = 40;
-// markMass = 30;
-// var johnBodyMass = johnMass / johnHeight ^ 2;
-// var markBodyMass = markMass / markHeight ^ 2;
+johnMass = 40;
+markMass = 30;
+var johnBodyMass = johnMass / johnHeight ^ 2;
+var markBodyMass = markMass / markHeight ^ 2;
 
-// if(johnBodyMass > markBodyMass) {
-//     console.log('John\'s bodymass higher than Mark\'s.');
-// } else {
-//     console.log('Mark\'s bodymass higher than John\'s.');
-// }
+if(johnBodyMass > markBodyMass) {
+    console.log('John\'s bodymass higher than Mark\'s.');
+} else {
+    console.log('Mark\'s bodymass higher than John\'s.');
+}
 
 // Boolean Logic
 
