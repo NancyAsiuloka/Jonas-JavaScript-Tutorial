@@ -128,7 +128,7 @@
 //     console.log('Mark\'s bodymass higher than John\'s.');
 // }
 
-// Boolean Logic
+// boolean logic
 
 // var firstName = 'John';
 // var age = 20;
