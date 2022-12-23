@@ -133,6 +133,7 @@
 var firstName = 'John';
 var age = 20;
 
+// the  AND and OR opeartor
 if(age < 13) {
     console.log(firstName + ' is a boy');
 } else if(age >= 13 && age < 20) {
