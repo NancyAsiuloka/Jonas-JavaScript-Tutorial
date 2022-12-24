@@ -146,15 +146,15 @@
 // }
 
 // The ternary operator and switch statements
-// var firstName = 'John';
-// var age = 14;
+var firstName = 'John';
+var age = 14;
 
-// // ternary operator
-// age >= 18 ? console.log(firstName + ' drinks beer.')
-//     : console.log(firstName + ' drinks juice');
+// ternary operator
+age >= 18 ? console.log(firstName + ' drinks beer.')
+    : console.log(firstName + ' drinks juice');
 
-// var drink = age >= 18? 'beer' : 'juice';
-// console.log(drink);
+var drink = age >= 18? 'beer' : 'juice';
+console.log(drink);
 
 // // if (age >= 18){
 // //     var drink = 'beer';
