@@ -150,7 +150,7 @@ var firstName = 'John';
 var age = 14;
 
 // ternary operator, itis called ternary because it has 3 operand
-// 
+// which are "?, :, ;"
 age >= 18 ? console.log(firstName + ' drinks beer.')
     : console.log(firstName + ' drinks juice');
 
