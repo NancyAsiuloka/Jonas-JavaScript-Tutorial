@@ -157,11 +157,11 @@ age >= 18 ? console.log(firstName + ' drinks beer.')
 var drink = age >= 18? 'beer' : 'juice';
 console.log(drink);
 
-// // if (age >= 18){
-// //     var drink = 'beer';
-// // } else {
-// //     var drink = 'juice';
-// // }
+if (age >= 18){
+    var drink = 'beer';
+} else {
+    var drink = 'juice';
+}
 
 // // switch statement
 // var job = 'teacher';
