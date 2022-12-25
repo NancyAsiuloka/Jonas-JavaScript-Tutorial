@@ -151,17 +151,17 @@ var age = 14;
 
 // ternary operator, itis called ternary because it has 3 operand
 // which are "?, :, ;"
-age >= 18 ? console.log(firstName + ' drinks beer.')
-    : console.log(firstName + ' drinks juice');
+// age >= 18 ? console.log(firstName + ' drinks beer.')
+//     : console.log(firstName + ' drinks juice');
 
-var drink = age >= 18? 'beer' : 'juice';
-console.log(drink);
+// var drink = age >= 18? 'beer' : 'juice';
+// console.log(drink);
 
-if (age >= 18){
-    var drink = 'beer';
-} else {
-    var drink = 'juice';
-}
+// if (age >= 18){
+//     var drink = 'beer';
+// } else {
+//     var drink = 'juice';
+// }
 
 // // switch statement
 // var job = 'teacher';
