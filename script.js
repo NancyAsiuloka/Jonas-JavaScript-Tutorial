@@ -164,15 +164,15 @@ var age = 14;
 // }
 
 // // switch statement
-var job = 'teacher';
-switch (job){
-    case 'teacher':
-        console.log(firstName + ' teaches kids how to code.');
-    case 'driver':
-        console.log(firstName + ' drives an uber in Libson.');
-    case 'designer':
-        console.log(firstName + ' designs beautiful websites.');
-}
+// var job = 'teacher';
+// switch (job){
+//     case 'teacher':
+//         console.log(firstName + ' teaches kids how to code.');
+//     case 'driver':
+//         console.log(firstName + ' drives an uber in Libson.');
+//     case 'designer':
+//         console.log(firstName + ' designs beautiful websites.');
+// }
 
 // age = 56;
 // switch (true) {
