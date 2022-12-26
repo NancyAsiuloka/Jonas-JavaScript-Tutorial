@@ -202,7 +202,7 @@ var age = 14;
 // }
 
 // // equality operators
-// if (height === '23') {
+// if (height == '23') {
 //     console.log('The == operator does type coercion');
 // }
 
