@@ -191,8 +191,8 @@ var age = 14;
 
 // // truthy and falsy values and equality operators
 
-// // falsy are undefined, null, 0, '', NaN
-// // truthy are NOT falsy values
+// falsy values: are undefined, null, 0, '', NaN
+// truthy values: are NOT falsy values
 
 // var height = 23;
 // if (height || height === 0) {
