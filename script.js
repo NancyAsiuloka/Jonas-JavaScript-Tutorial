@@ -28,7 +28,6 @@
 // var year, yearJohn, yearMark;
 // now = 2018;
 
-
 // ageJohn = 28;
 // ageMark = 33;
 
@@ -146,7 +145,7 @@
 // }
 
 // The ternary operator and switch statements
-var firstName = 'John';
+var firstName = "John";
 var age = 14;
 
 // ternary operator, itis called ternary because it has 3 operand
@@ -342,12 +341,11 @@ var age = 14;
 //             tipCalculate(bills[1]),
 //             tipCalculate(bills[2])];
 
-// var finalValues = [bills[0] + tips[0], 
+// var finalValues = [bills[0] + tips[0],
 //                     bills[1] + tips[1],
 //                     bills[2] + tips[2]];
 
 // console.log(tips, finalValues);
-
 
 // Object and properties
 
@@ -358,7 +356,7 @@ var age = 14;
 //     birthYear: 1990,
 //     family: ['jane', 'Mark', 'Bob', 'Emily'],
 //     job: 'teacher',
-//     isMarried: false 
+//     isMarried: false
 // };
 
 // console.log(john.firstName);
@@ -378,7 +376,6 @@ var age = 14;
 // jane['lastName'] = 'Smith';
 // console.log(jane);
 
-
 // object methods
 
 // var john = {
@@ -387,14 +384,13 @@ var age = 14;
 //     birthYear: 1992,
 //     family: ['jane', 'Mark', 'Bob', 'Emily'],
 //     job: 'teacher',
-//     isMarried: false, 
+//     isMarried: false,
 //     calcAge: function() {
 //         this.age = 2018 - this.birthYear;
 //     }
 // };
 // john.calcAge();
 // console.log(john);
-
 
 // coding challenge
 // var john = {
@@ -406,7 +402,6 @@ var age = 14;
 //         return this.bmi;
 //     }
 // };
-
 
 // var mark = {
 //     fullName: 'Mark Smith',
@@ -468,80 +463,33 @@ var age = 14;
 
 // coding challenge
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+var john = {
+  firstName: "John",
+  lastName: "Smith",
+  birthyear: 1990,
+  isMarried: false,
+  bills: [124, 48, 268, 180, 42],
+  calcTips: function(){
+        this.tips = [];
+        this.finalValues = [];
+
+        for(var i = 0; i < this.bills.length; i++){
+            var percentage;
+            var bill = this.bills[i];
+
+            if(bill < 50){
+                percentage = .2;
+            } else if(bill >= 50 && bill < 200){
+                percentage = .15;
+            } else{
+                percentage = .1;
+            }
+
+            this.tips[i] = bill * percentage;
+            this.finalValues[i] = bill + bill * percentage;
+        }
+  }
+};
+
+john.calcTips();
+console.log(john);
