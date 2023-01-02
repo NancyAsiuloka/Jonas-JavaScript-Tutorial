@@ -551,96 +551,127 @@
 //     console.log(mark.lastName + '\'s family pays higher tips, with an average of $' + mark.average);
 // }
 
-var john = {
-    fullName: 'John Smith',
-    birthYear: 1990,
-    bills: [124, 48, 268, 180, 42],
-    calcTips: function() {
-        this.tips = [];
-        this.finalValues = [];
+// var john = {
+//     fullName: 'John Smith',
+//     birthYear: 1990,
+//     bills: [124, 48, 268, 180, 42],
+//     calcTips: function() {
+//         this.tips = [];
+//         this.finalValues = [];
 
-        for(var i = 0; i < this.bills.length; i++){
-            var percentage;
-            var bill = this.bills[i];
+//         for(var i = 0; i < this.bills.length; i++){
+//             var percentage;
+//             var bill = this.bills[i];
 
-            if(bill < 50){
-                percentage = .2;
-            } else if (bill >= 50 && bill < 200){
-                percentage = .15;
-            } else {
-                percentage = .1;
-            }
+//             if(bill < 50){
+//                 percentage = .2;
+//             } else if (bill >= 50 && bill < 200){
+//                 percentage = .15;
+//             } else {
+//                 percentage = .1;
+//             }
 
-            this.tips[i] = bill * percentage;
-            this.finalValues[i] = bill + bill * percentage;
-        }
-    }
-};
-
-john.calcTips();
-
-
-
-var mark = {
-    fullName: 'Mark Miler',
-    birthYear: 1990,
-    bills: [77, 375, 110, 45],
-    calcTips: function() {
-        this.tips = [];
-        this.finalValues = [];
-
-        for(var i = 0; i < this.bills.length; i++){
-            var percentage;
-            var bill = this.bills[i];
-
-            if(bill < 100){
-                percentage = .2;
-            } else if (bill >= 100 && bill < 300){
-                percentage = .1;
-            } else {
-                percentage = .25;
-            }
-
-            this.tips[i] = bill * percentage;
-            this.finalValues[i] = bill + bill * percentage;
-        }
-    }
-};
+//             this.tips[i] = bill * percentage;
+//             this.finalValues[i] = bill + bill * percentage;
+//         }
+//     }
+// };
 
 // john.calcTips();
+
+
+
+// var mark = {
+//     fullName: 'Mark Miler',
+//     birthYear: 1990,
+//     bills: [77, 375, 110, 45],
+//     calcTips: function() {
+//         this.tips = [];
+//         this.finalValues = [];
+
+//         for(var i = 0; i < this.bills.length; i++){
+//             var percentage;
+//             var bill = this.bills[i];
+
+//             if(bill < 100){
+//                 percentage = .2;
+//             } else if (bill >= 100 && bill < 300){
+//                 percentage = .1;
+//             } else {
+//                 percentage = .25;
+//             }
+
+//             this.tips[i] = bill * percentage;
+//             this.finalValues[i] = bill + bill * percentage;
+//         }
+//     }
+// };
+
+// // john.calcTips();
+// // mark.calcTips();
+// // console.log(john, mark);
+
+
+
+// function calcAverage(tips){
+//     var sum = 0;
+//     for(var i = 0; i < tips.length; i++){
+//         sum = sum + tips[i];
+//     } 
+//     return sum / tips.length;
+// }
+// john.calcTips();
 // mark.calcTips();
+
+// john.average = calcAverage(john.tips);
+// mark.average = calcAverage(mark.tips);
 // console.log(john, mark);
 
 
-
-function calcAverage(tips){
-    var sum = 0;
-    for(var i = 0; i < tips.length; i++){
-        sum = sum + tips[i];
-    } 
-    return sum / tips.length;
-}
-john.calcTips();
-mark.calcTips();
-
-john.average = calcAverage(john.tips);
-mark.average = calcAverage(mark.tips);
-console.log(john, mark);
-
-
-if(john.average > mark.average){
-        console.log(john.fullName + '\'s family pays higher tips, with an average of $' + john.average);
-    } else {
-        console.log(mark.fullName + '\'s family pays higher tips, with an average of $' + mark.average);
-    }
+// if(john.average > mark.average){
+//         console.log(john.fullName + '\'s family pays higher tips, with an average of $' + john.average);
+//     } else {
+//         console.log(mark.fullName + '\'s family pays higher tips, with an average of $' + mark.average);
+//     }
 
 
 
+// Lecture: The this keyword
+// console.log(this);
 
 
+// calculateAge(1990);
+
+// function calculateAge(year){
+//     console.log(2023 - year);
+//     console.log(this);
+// }
+
+// var john = {
+//     name: 'John',
+//     yearOfBirth: 1990,
+//     calculateAge: function(){
+//         console.log(this);
+//         console.log(2020 - this.yearOfBirth);
 
 
+//         // function innerFunction(){
+//         //     console.log(this);
+//         // }
+//         // innerFunction();
+//     }
+// }
 
+// john.calculateAge();
+
+
+// var mike = {
+//     name: 'Mike',
+//     yearOfBirth: 1995
+// };
+
+// mike.calculateAge = john.calculateAge;
+// mike.calculateAge(); 
 
 
 
