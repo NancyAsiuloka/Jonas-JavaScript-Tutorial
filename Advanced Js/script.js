@@ -1,4 +1,4 @@
-// functions constructor
+// Functions constructor
 
 // var john = {
 //     name: 'John',
