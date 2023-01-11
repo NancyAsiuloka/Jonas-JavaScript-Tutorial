@@ -22,9 +22,9 @@
 // var jane = new Person('Jane', 1969, 'designer');
 // var mark = new Person('Mark', 1948, 'retired');
 
-// john.calculateAge();
-// jane.calculateAge();
-// mark.calculateAge();
+john.calculateAge();
+jane.calculateAge();
+mark.calculateAge();
 
 
 // console.log(john.lastName);
