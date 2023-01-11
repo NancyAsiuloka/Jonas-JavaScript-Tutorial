@@ -2,7 +2,7 @@
 
 // var john = {
 //     name: 'John',
-//     yearOfBirth: 1990,
+//     yearOfBirth: 1989,
 //     job: 'teacher'
 // };
 
